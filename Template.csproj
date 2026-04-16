@@ -5,7 +5,7 @@
 		<PackageType>Template</PackageType>
 
 		<PackageId>Snowyyd.Templates</PackageId>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Authors>snowyyd</Authors>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/snowyyd/Csharp.Templates.git</RepositoryUrl>
