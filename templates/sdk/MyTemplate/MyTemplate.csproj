@@ -1,0 +1,7 @@
+<Project Sdk="Snowyyd.NET.Sdk/1.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+</Project>

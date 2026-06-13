@@ -1,26 +1,27 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
-		<PackageType>Template</PackageType>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageType>Template</PackageType>
 
-		<PackageId>Snowyyd.Templates</PackageId>
-		<Version>1.0.5</Version>
-		<Authors>snowyyd</Authors>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/snowyyd/Csharp.Templates.git</RepositoryUrl>
+    <PackageId>Snowyyd.Templates</PackageId>
+    <Version>1.1.0</Version>
+    <Authors>snowyyd</Authors>
+    <Description>My collection of C# templates</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/snowyyd/csharp-templates.git</RepositoryUrl>
 
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<IncludeContentInPack>true</IncludeContentInPack>
-		<IncludeBuildOutput>false</IncludeBuildOutput>
-		<NoDefaultExcludes>true</NoDefaultExcludes>
-		<ContentTargetFolders>content</ContentTargetFolders>
-		<NoWarn>$(NoWarn);NU5128</NoWarn>
-	</PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
 
-	<ItemGroup>
-		<Content Include="templates/**/*" Exclude="templates/**/build/**;templates/**/.git" />
-		<Compile Remove="**/*" />
-	</ItemGroup>
+  <ItemGroup>
+    <Content Include="templates/**/*" Exclude="templates/**/build/**;templates/**/.git" />
+    <Compile Remove="**/*" />
+  </ItemGroup>
 
 </Project>
