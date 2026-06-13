@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/template.json",
+  "author": "snowyyd",
+  "identity": "Snowyyd.BepInEx5.lugin",
+  "name": "snowyyd's BepInEx 5 Plugin",
+  "shortName": "snowyyd.bepinex5plugin",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "classifications": [
+    "Solution",
+    "Custom"
+  ],
+  "preferNameDirectory": true,
+  "sourceName": "MyTemplate",
+  "sources": [
+    {
+      "exclude": [
+        ".template.config/**"
+      ]
+    }
+  ],
+  "symbols": {
+    "solutionName": {
+      "type": "parameter",
+      "datatype": "string",
+      "fileRename": "MySolution",
+      "defaultValue": "MySolution"
+    },
+    "licenseHolder": {
+      "type": "parameter",
+      "datatype": "string",
+      "replaces": "LICENSE_HOLDER",
+      "defaultValue": "snowyyd"
+    }
+  }
+}
