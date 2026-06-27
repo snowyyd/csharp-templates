@@ -31,7 +31,7 @@ fi
 
 echo -e "${GREEN}Loading ${YELLOW}${ENV_FILE}${RESET}"
 set -a
-source $ENV_FILE
+source "$ENV_FILE"
 set +a
 
 #############################
