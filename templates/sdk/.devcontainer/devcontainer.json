@@ -4,7 +4,7 @@
   "name": "C# (.NET)",
 
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/dotnet",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:MCR_IMAGE_VARIANT",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},

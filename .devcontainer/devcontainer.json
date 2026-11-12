@@ -4,7 +4,7 @@
   "name": "snowyyd's C# Templates",
 
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/dotnet",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:11.0",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},

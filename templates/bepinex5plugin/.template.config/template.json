@@ -22,6 +22,12 @@
     }
   ],
   "symbols": {
+    "mcrImageVariant": {
+      "type": "parameter",
+      "datatype": "string",
+      "replaces": "MCR_IMAGE_VARIANT",
+      "defaultValue": "11.0"
+    },
     "solutionName": {
       "type": "parameter",
       "datatype": "string",
