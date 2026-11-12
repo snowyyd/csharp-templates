@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-LLVM_VERSION="20"
+LLVM_VERSION="22"
 
 # Install system dependencies
 sudo apt-get update && sudo apt-get install -y "clang-${LLVM_VERSION}" "lld-${LLVM_VERSION}" "llvm-${LLVM_VERSION}"
